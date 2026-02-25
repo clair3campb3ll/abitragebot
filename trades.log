@@ -1,0 +1,173 @@
+{"event": "START", "ts": "2026-02-24T15:34:32.781255+02:00", "params": {"capital": 1000.0, "poll": 3.0, "trade_usd": 100.0, "min_edge": 0.003, "buy_fee": 0.0015, "sell_fee": 0.0015, "start": "09:00", "end": "16:50", "logfile": "trades.log"}, "initial_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "END", "ts": "2026-02-24T15:35:20.312904+02:00", "trade_count": 0, "total_pnl_usd": 0, "final_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "START", "ts": "2026-02-24T18:00:37.602015+02:00", "params": {"capital": 1000.0, "poll": 3.0, "trade_usd": 100.0, "min_edge": 0.003, "buy_fee": 0.0015, "sell_fee": 0.0015, "start": "09:00", "end": "16:50", "logfile": "trades.log"}, "initial_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "END", "ts": "2026-02-24T18:00:52.630135+02:00", "trade_count": 0, "total_pnl_usd": 0, "final_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "START", "ts": "2026-02-24T18:16:30.415788+02:00", "params": {"capital": 1000.0, "poll": 3.0, "trade_usd": 100.0, "min_edge": 0.003, "buy_fee": 0.0015, "sell_fee": 0.0015, "start": "09:00", "end": "16:50", "logfile": "trades.log", "csvfile": "trades.csv"}, "initial_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "END", "ts": "2026-02-24T18:16:42.432581+02:00", "trade_count": 0, "total_pnl_usd": 0, "final_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "START", "ts": "2026-02-24T18:23:36.556339+02:00", "mode": "sim", "params": {"capital": 1000.0, "poll": 3.0, "trade_usd": 100.0, "min_edge": 0.003, "buy_fee": 0.0015, "sell_fee": 0.0015, "start": "09:00", "end": "16:50", "logfile": "trades.log", "csvfile": "trades.csv", "mode": null}, "initial_balances": {"SIM_A": {"usd": 500.0, "xrp": 0.0}, "SIM_B": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "TRADE", "ts": "2026-02-24T18:23:36.559171+02:00", "buy_venue": "SIM_A", "sell_venue": "SIM_B", "buy_price": 1.2964994670835248, "sell_price": 1.3042088458543968, "usd_spent": 100.0, "xrp_bought": 77.13076830255085, "fees_usd_est": 0.3, "pnl_usd": 0.4437383622711337, "mode": "sim", "balances": {"SIM_A": {"usd": 399.85, "xrp": 77.13076830255085}, "SIM_B": {"usd": 600.4437383622711, "xrp": 0.0}}}
+{"event": "TRADE", "ts": "2026-02-24T18:23:39.564765+02:00", "buy_venue": "SIM_A", "sell_venue": "SIM_B", "buy_price": 1.2992021530122406, "sell_price": 1.3077132092746342, "usd_spent": 100.0, "xrp_bought": 76.9703157958497, "fees_usd_est": 0.3, "pnl_usd": 0.5041160402402767, "mode": "sim", "balances": {"SIM_A": {"usd": 299.70000000000005, "xrp": 154.10108409840055}, "SIM_B": {"usd": 700.9478544025114, "xrp": 0.0}}}
+{"event": "TRADE", "ts": "2026-02-24T18:23:48.576315+02:00", "buy_venue": "SIM_A", "sell_venue": "SIM_B", "buy_price": 1.2993104330943803, "sell_price": 1.3036041181882958, "usd_spent": 100.0, "xrp_bought": 76.96390135330817, "fees_usd_est": 0.3, "pnl_usd": 0.17996306787627248, "mode": "sim", "balances": {"SIM_A": {"usd": 199.55000000000004, "xrp": 231.0649854517087}, "SIM_B": {"usd": 801.1278174703878, "xrp": 0.0}}}
+{"event": "TRADE", "ts": "2026-02-24T18:23:51.579705+02:00", "buy_venue": "SIM_A", "sell_venue": "SIM_B", "buy_price": 1.2989166723754733, "sell_price": 1.3054497868854074, "usd_spent": 100.0, "xrp_bought": 76.98723261217279, "fees_usd_est": 0.3, "pnl_usd": 0.35221195684856355, "mode": "sim", "balances": {"SIM_A": {"usd": 99.40000000000003, "xrp": 308.05221806388147}, "SIM_B": {"usd": 901.4800294272363, "xrp": 0.0}}}
+{"event": "TRADE", "ts": "2026-02-24T18:23:54.586151+02:00", "buy_venue": "SIM_A", "sell_venue": "SIM_B", "buy_price": 1.3000981122135806, "sell_price": 1.306779233983736, "usd_spent": 99.40000000000003, "xrp_bought": 76.34125638875051, "fees_usd_est": 0.3, "pnl_usd": 0.2115267922297761, "mode": "sim", "balances": {"SIM_A": {"usd": 1.4210854715202004e-14, "xrp": 384.39347445263195}, "SIM_B": {"usd": 1001.0915562194662, "xrp": 0.0}}}
+{"event": "SKIP", "ts": "2026-02-24T18:24:00.598625+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:03.604419+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:06.610801+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:09.617049+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:12.621121+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:15.627353+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:18.629589+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:21.635851+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:24.638016+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:27.644215+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:30.648704+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:33.654562+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:36.658671+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:39.665013+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:42.671278+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:45.677577+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:48.680052+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:51.686221+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:54.688425+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:24:57.691459+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:00.697400+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:03.702443+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:06.705139+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:09.711552+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:12.715387+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:15.721650+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:18.727986+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:21.730798+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:24.737657+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:27.743971+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:30.751040+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:33.767511+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:36.773864+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:39.777911+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:42.780893+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:45.785574+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:48.791869+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:51.797837+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:54.800968+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:25:57.807007+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:00.813161+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:03.814342+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:06.820789+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:09.825536+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:12.830272+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:15.836713+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:18.843010+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:21.849334+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:24.855043+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:27.858134+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:30.863347+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:33.871718+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:36.878057+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:39.881124+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:42.887039+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:45.892433+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:48.898929+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:51.905140+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:54.911600+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:26:57.918023+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:00.922290+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:03.926591+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:06.929929+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:09.936285+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:12.939032+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:15.945449+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:18.947994+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:21.954409+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:24.960765+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:27.965452+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:30.972200+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:33.975589+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:36.981385+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:39.987827+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:42.994080+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:45.997901+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:49.004250+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:52.007506+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:55.013736+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:27:58.020021+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:01.021692+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:04.027962+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:07.031516+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:10.038201+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:13.044531+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:16.049220+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:19.051516+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:22.056278+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:25.062688+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:28.065421+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:31.080318+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:34.086286+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:37.089382+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:40.092140+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:43.098457+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:46.107002+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:49.113248+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:52.123021+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:55.132692+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:28:58.143184+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:01.150476+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:04.161530+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:07.172842+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:10.183259+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:13.184751+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:16.189400+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:19.192882+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:22.197500+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:25.208666+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:28.212656+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:31.221352+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:34.232027+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:37.239642+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:40.251025+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:43.252433+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:46.256348+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:49.267769+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:52.271435+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:55.279622+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:29:58.287178+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:01.288481+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:04.299804+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:07.308111+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:10.319435+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:13.329269+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:16.339340+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:19.347674+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:22.358937+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:25.367109+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:28.374790+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:31.385603+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:34.390287+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:37.401583+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:40.407778+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:43.418988+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:46.423266+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:49.434332+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:52.445562+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:55.453550+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:30:58.460644+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:01.468595+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:04.473386+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:07.483960+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:10.485868+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:13.490296+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:16.494530+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "SKIP", "ts": "2026-02-24T18:31:19.500608+02:00", "reason": "Insufficient USD on buy venue", "buy_venue": "SIM_A", "sell_venue": "SIM_B"}
+{"event": "END", "ts": "2026-02-24T18:31:22.506589+02:00", "mode": "sim", "trade_count": 5, "total_pnl_usd": 1.6915562194660225, "final_balances": {"SIM_A": {"usd": 1.4210854715202004e-14, "xrp": 384.39347445263195}, "SIM_B": {"usd": 1001.0915562194662, "xrp": 0.0}}}
+{"event": "START", "ts": "2026-02-25T09:16:23.338281+02:00", "mode": "live", "params": {"capital": 1000.0, "poll": 3.0, "trade_usd": 100.0, "min_edge": 0.003, "buy_fee": 0.0015, "sell_fee": 0.0015, "start": "09:00", "end": "16:50", "logfile": "trades.log", "csvfile": "trades.csv", "mode": null}, "initial_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:16:23.342588+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c50f0>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:16:31.389405+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c4eb0>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:16:39.398194+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c4130>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:16:47.409971+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c49a0>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:16:55.424645+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c42e0>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:03.438896+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c6410>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:11.452430+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c6320>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:19.470645+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c47f0>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:27.489395+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c4580>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:35.505888+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c4a90>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "PRICE_ERROR", "ts": "2026-02-25T09:17:43.524562+02:00", "error": "COINBASE price fetch failed: HTTPSConnectionPool(host='api.coinbase.com', port=443): Max retries exceeded with url: /v2/prices/XRP-USD/spot (Caused by ConnectTimeoutError(<HTTPSConnection(host='api.coinbase.com', port=443) at 0x1089c4f70>, 'Connection to api.coinbase.com timed out. (connect timeout=5.0)'))"}
+{"event": "END", "ts": "2026-02-25T09:17:51.537250+02:00", "mode": "live", "trade_count": 0, "total_pnl_usd": 0, "final_balances": {"COINBASE": {"usd": 500.0, "xrp": 0.0}, "BITSTAMP": {"usd": 500.0, "xrp": 0.0}}}
