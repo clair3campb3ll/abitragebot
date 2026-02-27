@@ -52,20 +52,40 @@ class Venue:
 
 
 class CoinbaseVenue(Venue):
-    # Connects to real-time data feed from Coinbase API for XRP-USD spot price
     name = "COINBASE"
 
-    def __init__(self, session: requests.Session, timeout_s: float = 5.0):
+    def __init__(self, session: requests.Session, timeout_s: float = 8.0):
         self.session = session
         self.timeout_s = timeout_s
-        self.url = "https://api.coinbase.com/v2/prices/XRP-USD/spot"
+
+        # Choose ONE of these. I recommend Exchange ticker:
+        self.url = "https://api.exchange.coinbase.com/products/XRP-USD/ticker"
+        # If you still want spot v2:
+        # self.url = "https://api.coinbase.com/v2/prices/XRP-USD/spot"
 
     def fetch_price(self) -> float:
         try:
-            r = self.session.get(self.url, timeout=self.timeout_s)
+            r = self.session.get(
+                self.url,
+                timeout=self.timeout_s,
+                headers={"User-Agent": "arb-bot/1.0", "Accept": "application/json"},
+            )
             r.raise_for_status()
             data = r.json()
-            return float(data["data"]["amount"])
+
+            # If Exchange endpoint: {"price": "...", ...}
+            if "price" in data:
+                return float(data["price"])
+
+            # If v2 spot endpoint: {"data": {"amount": "...", ...}}
+            if "data" in data and "amount" in data["data"]:
+                return float(data["data"]["amount"])
+
+            # Otherwise Coinbase returned something unexpected (often an error message)
+            raise PriceFeedError(f"Unexpected Coinbase JSON: {data}")
+
+        except PriceFeedError:
+            raise
         except Exception as e:
             raise PriceFeedError(f"{self.name} price fetch failed: {e}") from e
 
@@ -242,6 +262,8 @@ def choose_mode_interactive() -> str:
         if choice == "2":
             return "live"
         print("Invalid choice. Please enter 1 or 2.")
+
+        
 
 
 # MAIN
